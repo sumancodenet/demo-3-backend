@@ -1,0 +1,23 @@
+{
+  "name": "demo-3-backend",
+  "version": "1.0.0",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "keywords": [],
+  "author": "Code Net",
+  "license": "ISC",
+  "description": "demo-3-backend",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "mysql2": "^3.11.5",
+    "nodemon": "^3.1.7",
+    "sequelize": "^6.37.5",
+    "uuid": "^11.0.3"
+  }
+}
